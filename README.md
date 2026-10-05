@@ -40,11 +40,23 @@ All three members prepare the slides for that phase, keep camera and audio on fo
 
 ## Collaboration
 
-**Team A** planned the project and assigned roles on **WhatsApp**. Screenshots of those discussions are in the [`Image`](Image/) folder.
+**Team A** planned the project and assigned roles on **WhatsApp**. Phase 1 (D1) drafts and revisions were made on **Google Slides / Google Docs**. Screenshots are in the [`Image`](Image/) folder.
 
-Phase 1 (D1) drafts and revisions were made on **Google Slides / Google Docs**. Screenshots of that work are also in the [`Image`](Image/) folder. Live D1 deck:
+Live D1 deck: [D1_Complete (Google Slides)](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
 
-[D1_Complete (Google Slides)](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
+| Screenshot | Content |
+|---|---|
+| [01](Image/01-whatsapp-group-created.png) | WhatsApp group created |
+| [02](Image/02-proposed-d1-roles.png) | First proposed D1 roles |
+| [03](Image/03-first-meeting-tasks.png) | First meeting tasks |
+| [04](Image/04-meeting-and-problem3.png) | Meeting and Problem 3 |
+| [05](Image/05-google-doc-smart-goals.png) | Google Doc SMART-goal draft |
+| [06](Image/06-agenda-speaking-assignment.png) | Agenda speaking assignment |
+| [07](Image/07-d1-d2-d3-roles-table.png) | D1 / D2 / D3 owner table |
+| [08](Image/08-google-slide-and-doc.png) | Google Slides and Google Doc |
+| [09](Image/09-d1-complete-slides-link.png) | Shared D1_Complete link |
+| [10](Image/10-d1-roles-agreed.png) | D1 roles agreed |
+| [11](Image/11-review-castroff-prompts.png) | Review of CASTROFF prompts |
 
 ## Roles and responsibilities
 
