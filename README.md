@@ -38,6 +38,14 @@ The work is one product, delivered in three related phases. Every phase uses the
 
 All three members prepare the slides for that phase, keep camera and audio on for the full presentation, and attend for the entire slot. The instructor selects one presenter at random. The named owner remains responsible for that problem’s content.
 
+## Collaboration
+
+**Team A** planned the project and assigned roles on **WhatsApp**. Screenshots of those discussions are in the [`Image`](Image/) folder.
+
+Phase 1 (D1) drafts and revisions were made on **Google Slides / Google Docs**. Screenshots of that work are also in the [`Image`](Image/) folder. Live D1 deck:
+
+[D1_Complete (Google Slides)](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
+
 ## Roles and responsibilities
 
 ### Phase 1 (D1)
@@ -110,6 +118,7 @@ Until then, this repository is the public project page (overview, phases, and te
 ```text
 SOEN6611-TeamA/
   README.md          ← this file
+  Image/             ← WhatsApp and Google Slides / Docs screenshots
   (D2) src/ test/    ← Java product and tests (to be added)
   (D2) tools/        ← measurement scripts (to be added)
 ```
