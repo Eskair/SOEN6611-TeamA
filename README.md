@@ -1,10 +1,17 @@
 # Montréal Interac ABM
 
+## Instructor and teaching assistant
+
+| Role | Name | Contact |
+|---|---|---|
+| Professor | Pankaj Kamthan | SOEN 6611, Concordia University |
+| Teaching assistant | Amr Abdalla | amrala304@gmail.com |
+
+## About the project and its three phases
+
 A 21st-century **Canadian Interac Automated Banking Machine** simulator for Greater Montréal: CAD only, bilingual EN/FR, chip-and-PIN. This is a course simulator (no live Interac, no real funds). USD, crypto ATMs, bill-pay, and operator replenishment are out of scope.
 
 The SOEN 6611 project description still names the project **iBank**. We keep that as the official course label (and later Java package name). **Montréal Interac ABM** is the specific machine we selected and will implement.
-
-## About the project and its three phases
 
 The work is one product, delivered in three related phases. Every phase uses the course PowerPoint template, GAI with CASTROFF, and an AI Interaction Log. Phase 1 also cites non-original material (IEEE/ACM). The same ABM model is used from start to finish.
 
@@ -30,13 +37,6 @@ The work is one product, delivered in three related phases. Every phase uses the
 | **Himanshu Banwal** | D1 Problem 3; D2 Problem 6 (readability); D3 Problems 9 and 10 |
 
 All three members prepare the slides for that phase, keep camera and audio on for the full presentation, and attend for the entire slot. The instructor selects one presenter at random. The named owner remains responsible for that problem’s content.
-
-## Instructor and teaching assistant
-
-| Role | Name | Contact |
-|---|---|---|
-| Professor | Pankaj Kamthan | SOEN 6611, Concordia University |
-| Teaching assistant | Amr Abdalla | amrala304@gmail.com |
 
 ## Roles and responsibilities
 
