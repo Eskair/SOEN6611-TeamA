@@ -40,7 +40,7 @@ All three members prepare the slides for that phase, keep camera and audio on fo
 
 ## Collaboration
 
-**Team A** planned the project and assigned roles on **WhatsApp**. Phase 1 (D1) drafts and revisions were made on **Google Slides / Google Docs**. Screenshots are in the [`Image`](Image/) folder.
+**Team A** planned the project and assigned roles on **WhatsApp**. Phase 1 (D1) drafts and revisions were made on **Google Drive / Google Slides / Google Docs** (for example `SOEN6611_D1_Revised`, `SOEN6611.pptx`, and `D1_AI_Interaction_Log.pptx`). Screenshots are in the [`Image`](Image/) folder.
 
 Live D1 deck: [D1_Complete (Google Slides)](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
 
@@ -57,6 +57,7 @@ Live D1 deck: [D1_Complete (Google Slides)](https://docs.google.com/presentation
 | [09](Image/09-d1-complete-slides-link.png) | Shared D1_Complete link |
 | [10](Image/10-d1-roles-agreed.png) | D1 roles agreed |
 | [11](Image/11-review-castroff-prompts.png) | Review of CASTROFF prompts |
+| [12](Image/12-google-drive-d1-files.png) | Google Drive: D1 revised deck and AI log |
 
 ## Roles and responsibilities
 

@@ -15,3 +15,4 @@ Team A collaboration screenshots (WhatsApp and Google Slides / Docs).
 | [09-d1-complete-slides-link.png](09-d1-complete-slides-link.png) | Shared D1_Complete Google Slides link |
 | [10-d1-roles-agreed.png](10-d1-roles-agreed.png) | D1 roles table agreed in WhatsApp |
 | [11-review-castroff-prompts.png](11-review-castroff-prompts.png) | Review of CASTROFF / prompt requirements |
+| [12-google-drive-d1-files.png](12-google-drive-d1-files.png) | Google Drive recent files (D1 revised PPTX and AI log) |
