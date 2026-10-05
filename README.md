@@ -1,4 +1,4 @@
-# SOEN 6611 Section D — iBank team roles and responsibilities
+# SOEN 6611 Section D — Montréal Interac ABM team roles and responsibilities
 
 ## Instructor and teaching assistant
 
@@ -19,14 +19,16 @@ A Google Doc with the same D1 table is also kept for D1. From D2 onward, this Gi
 
 ## About this project and its three phases
 
-**iBank** is our SOEN 6611 product and project: a 21st-century **Canadian Interac ABM simulator** (Greater Montréal, CAD only, bilingual EN/FR, chip-and-PIN). It is a course simulator with no live Interac and no real funds. USD, crypto ATMs, bill-pay, and operator replenishment stay out of scope for every phase.
+Our product is **Montréal Interac ABM**: a 21st-century, bank-owned indoor/vestibule **Automated Banking Machine** for Greater Montréal. It is Interac Debit, **CAD only**, bilingual EN/FR, and chip-and-PIN. This course build is a **simulator** (no live Interac, no real funds). USD, crypto ATMs, bill-pay, and operator replenishment stay out of scope for every phase.
+
+The assignment PDF still names the project **iBank**. We keep that as the official course/project label so it matches the marking scheme and later Java packages. **Montréal Interac ABM** is the specific machine we selected in D1 and will implement.
 
 Work is split into three related deliverables. Every phase uses the course PowerPoint template, GAI with CASTROFF, and an AI Interaction Log. D1 also cites non-original material (IEEE/ACM). The same ABM model is used from D1 through D3.
 
 | Phase | Where | What the team delivers |
 |---|---|---|
-| **D1** | Zoom presentation | Choose the Canadian ABM (Problem 1), one SMART GQM goal and six questions (Problem 2), and a graphical + textual use-case model (Problem 3). |
-| **D2** | Zoom + Java product | Implement and test iBank (Problem 4), count Physical and Logical SLOC (Problem 5), and apply one authoritative readability metric (Problem 6). |
+| **D1** | Zoom presentation | Choose this Canadian ABM (Problem 1), one SMART GQM goal and six questions (Problem 2), and a graphical + textual use-case model (Problem 3). |
+| **D2** | Zoom + Java product | Implement and test Montréal Interac ABM (Problem 4), count Physical and Logical SLOC (Problem 5), and apply one authoritative readability metric (Problem 6). |
 | **D3** | Classroom presentation | Cyclomatic complexity (Problem 7); WMC, CF, and LCOM* for each class (Problem 8); UCP and Basic COCOMO 81 vs actual effort (Problem 9); Logical SLOC vs WMC scatter and correlation (Problem 10). |
 
 ---
@@ -67,7 +69,7 @@ These D1 roles were agreed by the team (WhatsApp discussion and two role-assignm
 
 - One goal only, written to be SMART, using the Basili GQM idea (Goal → Questions → Metrics).
 - Team size **N = 3**, so **2N = 6** questions, each with a metric **M**.
-- **Goal:** evaluate CAD cash-withdrawal effectiveness for authenticated Canadian cardholders in Fall 2026.
+- **Goal:** evaluate CAD cash-withdrawal effectiveness on Montréal Interac ABM for authenticated Canadian cardholders in Fall 2026.
 
 | ID | Question | Metric |
 |---|---|---|
@@ -113,9 +115,9 @@ From D2, source, metrics scripts, and this roles page live on **GitHub**. Slides
 
 | Member | D2 problem | What they own |
 |---|---|---|
-| Keyoumu Aisikeer | **Problem 4 (a)** | Implement iBank in Java (Swing GUI, OOP, exceptions, reuse, `javac` without an IDE). |
+| Keyoumu Aisikeer | **Problem 4 (a)** | Implement Montréal Interac ABM in Java (Swing GUI, OOP, exceptions, reuse, `javac` without an IDE). |
 | Shubo Debnath | **Problem 4 (b) + Problem 5** | Representative tests; Physical SLOC and Logical SLOC (scheme stated; tests excluded from the count). |
-| Himanshu Banwal | **Problem 6** | Select an authoritative readability metric, measure iBank, comment on thresholds. |
+| Himanshu Banwal | **Problem 6** | Select an authoritative readability metric, measure this product, comment on thresholds. |
 
 Shared: product must stay CAD / bilingual / the D1 use-case set; CASTROFF + AI log for D2; one random presenter on Zoom.
 
@@ -127,7 +129,7 @@ Classroom presentation. Same owners unless the team updates this file.
 
 | Member | D3 problem | What they own |
 |---|---|---|
-| Keyoumu Aisikeer | **Problem 7** | Cyclomatic number of iBank; comment vs published thresholds. |
+| Keyoumu Aisikeer | **Problem 7** | Cyclomatic number of Montréal Interac ABM; comment vs published thresholds. |
 | Shubo Debnath | **Problem 8** | WMC (weights not normalized), CF, and LCOM* for **each** class; comment vs thresholds. |
 | Himanshu Banwal | **Problems 9 and 10** | UCP effort and Basic COCOMO 81 vs actual effort; scatter plot and correlation of Logical SLOC vs WMC. |
 
