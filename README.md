@@ -44,7 +44,10 @@ All three members prepare the slides for that phase, keep camera and audio on fo
 
 **Team A** planned the project and assigned roles on **WhatsApp**. Phase 1 (D1) drafts and revisions were made on **Google Drive / Google Slides / Google Docs** (for example `SOEN6611_D1_Revised`, `SOEN6611.pptx`, and `D1_AI_Interaction_Log.pptx`). Screenshots are in the [`Image`](Image/) folder.
 
-Live D1 deck: [D1_Complete (Google Slides)](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
+Live D1 decks (Google Slides):
+
+- [D1_Complete](https://docs.google.com/presentation/d/1SdPOP0wPD5SaT6SHaSDFhV2KVu9qTv__/edit?usp=sharing)
+- [D1 working slides](https://docs.google.com/presentation/d/1TxVz2F2qIw-Wxc3rS3ZihO5pKqQptQKh1OJaI7qm1yA/edit?usp=sharing)
 
 | Screenshot | Content |
 |---|---|
