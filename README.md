@@ -21,6 +21,8 @@ The work is one product, delivered in three related phases. Every phase uses the
 | **Phase 2 (D2)** | Zoom + Java product | Implement and test Montréal Interac ABM (Problem 4), count Physical and Logical SLOC (Problem 5), and apply one authoritative readability metric (Problem 6). |
 | **Phase 3 (D3)** | Classroom | Cyclomatic complexity (Problem 7); WMC, CF, and LCOM* for each class (Problem 8); UCP and Basic COCOMO 81 vs actual effort (Problem 9); Logical SLOC vs WMC scatter and correlation (Problem 10). |
 
+Phase 1 Zoom presentation (revised deck): [`D1/SOEN6611_D1_Revised-present.pptx`](D1/SOEN6611_D1_Revised-present.pptx)
+
 ## Features and scope
 
 - Bank-owned indoor / vestibule ABM, Interac Debit, polymer $20 notes
@@ -124,16 +126,17 @@ Phase 2 source will live in this repository. After it is published:
 .\run.ps1
 ```
 
-Until then, this repository is the public project page (overview, phases, and team roles).
+The Phase 1 presentation is already in [`D1/`](D1/). Phase 2 source will be added here later.
 
 ## Project structure
 
 ```text
 SOEN6611-TeamA/
-  README.md          ← this file
-  Image/             ← WhatsApp and Google Slides / Docs screenshots
-  (D2) src/ test/    ← Java product and tests (to be added)
-  (D2) tools/        ← measurement scripts (to be added)
+  README.md                                 ← this file
+  D1/SOEN6611_D1_Revised-present.pptx       ← Phase 1 Zoom presentation
+  Image/                                    ← WhatsApp and Google Drive / Slides screenshots
+  (D2) src/ test/                           ← Java product and tests (to be added)
+  (D2) tools/                               ← measurement scripts (to be added)
 ```
 
 ## GAI and CASTROFF
