@@ -95,6 +95,8 @@ These roles were agreed by the team before the D1 slides were submitted and pres
 
 ### Phase 2 (D2)
 
+Public D2 roles document: [`D2_ROLES.md`](D2_ROLES.md)
+
 | Member | Problem | Responsibility |
 |---|---|---|
 | Keyoumu Aisikeer | **Problem 4 (a)** | Implement Montréal Interac ABM in Java (Swing GUI, OOP, exceptions, reuse, `javac` without an IDE). |
@@ -136,6 +138,7 @@ The Phase 1 presentation is already in [`D1/`](D1/). Phase 2 source will be adde
 ```text
 SOEN6611-TeamA/
   README.md                                 ← this file
+  D2_ROLES.md                               ← D2 roles and responsibilities
   D1/SOEN6611_D1_Revised-present.pptx       ← Phase 1 Zoom presentation
   Image/                                    ← WhatsApp and Google Drive / Slides screenshots
   (D2) src/ test/                           ← Java product and tests (to be added)
