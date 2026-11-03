@@ -1,0 +1,17 @@
+# Simulated cardholders for the iBank course prototype. Test data only: not real people or cards.
+# One line per account: cardNumber,pin,name,accountNumber,accountType,balance
+#
+# Each cardholder covers a different test situation:
+#   Amira   - two accounts with normal balances (everyday use, transfers)
+#   Etienne - low chequing balance (insufficient funds)
+#   Sofia   - high balance (daily limit, large withdrawals)
+#   Marc    - one account only (transfer needs a second account)
+#
+# Every account ends in different digits, so masked numbers (last 4 digits) are never ambiguous.
+4500000000001111,1111,Amira Haddad,100111101,CHEQUING,2450.75
+4500000000001111,1111,Amira Haddad,100112201,SAVINGS,8000.00
+4500000000002222,2222,Etienne Gagnon,100221102,CHEQUING,35.00
+4500000000002222,2222,Etienne Gagnon,100222202,SAVINGS,150.00
+4500000000003333,3333,Sofia Tremblay,100331103,CHEQUING,25000.00
+4500000000003333,3333,Sofia Tremblay,100332203,SAVINGS,60000.00
+4500000000004444,4444,Marc Nguyen,100441104,CHEQUING,500.00
