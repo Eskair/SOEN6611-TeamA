@@ -40,7 +40,17 @@ class TransactionServiceTest {
   @Nested
   @DisplayName("Withdraw")
   class Withdraw {
+    @Test
+    @DisplayName("An over-limit amount is rejected before choosing notes")
+    void suggestNotesRejectsOverDailyLimit() throws Exception {
+      DailyLimitExceededException error = assertThrows(DailyLimitExceededException.class,
+          () -> bank.transactions.suggestNotes(session, Money.cad(2000)));
 
+      assertEquals(Money.cad(1000), error.getMessageArgs()[0]);
+      assertEquals(Money.cad(1500), balanceOf(TestBank.CHEQUING));
+      assertEquals(Money.cad(1850), bank.dispenser.getTotalCash());
+      assertEquals(0, bank.bankCore.getTransactions(bank.main).size());
+    }
     @Test
     @DisplayName("A valid withdrawal lowers the balance, removes notes and is recorded")
     void validWithdrawal() throws Exception {
