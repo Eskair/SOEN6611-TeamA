@@ -89,8 +89,10 @@ public class TransactionService {
    * change the mix. Nothing is withdrawn.
    */
   public NoteBundle suggestNotes(AtmSession session, Money amount)
-      throws SessionExpiredException, InvalidAmountException, CashUnavailableException {
+      throws SessionExpiredException, InvalidAmountException, CashUnavailableException,
+          DailyLimitExceededException {
     session.ensureActive();
+    checkDailyLimit(session.getCardholder(), amount);
     return dispenser.plan(amount);
   }
 

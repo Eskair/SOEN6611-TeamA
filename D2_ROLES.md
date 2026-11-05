@@ -6,16 +6,16 @@ This page is the public D2 roles document. Team A has **two members**. The GitHu
 
 ## Team (N = 2)
 
-| Member | D2 ownership |
+| Member | D2 responsibility |
 |---|---|
-| **Keyoumu Aisikeer** | Problem 4 (a) — implement iBank in Java; Problem 5 — Physical and Logical SLOC |
-| **Himanshu Banwal** | Problem 4 (b) — representative tests; Problem 6 — source-code readability metric |
+| **Himanshu Banwal** | Lead completion of Problems 4–6 and the D2 materials. |
+| **Keyoumu Aisikeer** | Review, independently test, revise, and supplement the D2 implementation and materials. |
 
-Both members prepare the D2 slides, keep camera and audio on for the full Zoom presentation, and attend for the entire slot. One presenter is chosen at random. The named owner remains responsible for that problem’s content.
+Both members prepare slides and understand the complete D2 presentation. Contributions and actual effort are recorded as work progresses.
 
-Workload: the former third member’s D2 tasks (tests + SLOC) are split. Implementation and SLOC stay together (same source). Tests and readability stay together (quality of that source).
+## Completion lead — Himanshu Banwal
 
-## Problem 4 (a) and Problem 5 — Keyoumu Aisikeer
+Himanshu leads the following D2 tasks. Keyoumu reviews the results and contributes corrections and additions.
 
 **Problem 4 (a)**
 
@@ -29,8 +29,6 @@ Workload: the former third member’s D2 tasks (tests + SLOC) are split. Impleme
 - State the SLOC counting scheme.
 - Report Physical SLOC and Logical SLOC on production source only (exclude tests).
 
-## Problem 4 (b) and Problem 6 — Himanshu Banwal
-
 **Problem 4 (b)**
 
 - Test the product with representative data (success and exception paths).
@@ -40,6 +38,20 @@ Workload: the former third member’s D2 tasks (tests + SLOC) are split. Impleme
 - Select one authoritative readability metric and say why.
 - Measure the iBank source with that metric.
 - Comment on qualitative conclusions versus the metric’s published thresholds.
+
+## Review, revisions, and additions — Keyoumu Aisikeer
+
+- Independently build and run iBank and its automated tests.
+- Manually verify the GUI and transaction flows against the agreed requirements.
+- Review P5 counting rules and results and P6 metric selection, calculations, and conclusions.
+- Reproduce issues, contribute fixes, and add regression tests where needed.
+- Review and supplement the D2 presentation and supporting materials.
+
+### Recorded contribution
+
+Keyoumu identified that an over-limit amount could reach note selection. He added the existing daily-limit check to `TransactionService.suggestNotes()` and a regression test confirming rejection and unchanged balance, cash inventory, and transaction records. All 68 tests passed on Windows with JDK 21. Manual checks confirmed immediate rejection of $2,000 and progression to note selection for $1,000 when $1,000 remained available.
+
+See [PR #1](https://github.com/Eskair/SOEN6611-TeamA/pull/1), commit `e9c6df5`, for the change and AI assistance disclosure.
 
 ## Shared (whole team)
 

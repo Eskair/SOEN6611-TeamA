@@ -34,14 +34,15 @@ Phase 1 Zoom presentation (revised deck): [`D1/SOEN6611_D1_Revised-present.pptx`
 
 ## Team
 
-Team A has **two members**. Work is split so each phase is about **40 / 40** (D1), a shared product plus two measurements (D2), and **50 / 50** marks (D3).
+Team A has **two members**. The current division of responsibilities is recorded below.
 
-| Member | D1 | D2 | D3 |
-|---|---|---|---|
-| **Keyoumu Aisikeer** | Problems 1 and 2 (40 marks) | Problem 4 (a) implement + Problem 5 SLOC | Problems 7 and 8 (50 marks) |
-| **Himanshu Banwal** | Problem 3 (40 marks) | Problem 4 (b) tests + Problem 6 readability | Problems 9 and 10 (50 marks) |
+| Phase | Primary responsibility | Review, revisions, and additions |
+|---|---|---|
+| **D1** | **Keyoumu Aisikeer** leads completion of Problems 1–3 and the D1 materials. | **Himanshu Banwal** reviews, corrects, and supplements the work. |
+| **D2** | **Himanshu Banwal** leads completion of Problems 4–6 and the D2 materials. | **Keyoumu Aisikeer** reviews, tests, corrects, and supplements the work. |
+| **D3** | **Keyoumu Aisikeer** and **Himanshu Banwal** each complete half of the D3 tasks. | Each member reviews, corrects, and supplements the other member's work. |
 
-Both members prepare the slides for that phase, keep camera and audio on for the full presentation, and attend for the entire slot. The instructor selects one presenter at random. The named owner remains responsible for that problem’s content.
+The specific D3 task allocation will be recorded when agreed. Both members prepare slides and understand the full presentation. Actual contributions and effort are recorded as the work progresses.
 
 ## Collaboration
 
@@ -71,10 +72,10 @@ Live D1 decks (Google Slides):
 
 ### Phase 1 (D1)
 
-| Member | Problem | Marks | Responsibility |
-|---|---|---|---|
-| Keyoumu Aisikeer | **Problems 1 and 2** | 20 + 20 | Canadian ABM selection and assumptions; one SMART GQM goal and **2N = 4** questions. |
-| Himanshu Banwal | **Problem 3** | 40 | Use-case model, graphical and textual, with definitions of actors and use cases. |
+| Member | Responsibility |
+|---|---|
+| Keyoumu Aisikeer | Lead completion of Problems 1–3 and the D1 materials. |
+| Himanshu Banwal | Review, revise, and supplement the D1 materials. |
 
 **Problem 1 (Keyoumu Aisikeer).** Choose a kiosk suitable for Canada in the 21st century. Describe the machine, currency, and users. State assumptions (CAD only; 4-digit PIN; lock after 3 failed PINs; $1,000 daily cap; $20 notes; simulator only). Reject crypto ATM, USD cassette, and ABM e-Transfer.
 
@@ -89,7 +90,7 @@ Live D1 decks (Google Slides):
 
 Q1–Q3 answer the SMART goal directly. Q4 is a usability construct, not a full operations dashboard. Extra questions used in an earlier three-person draft were dropped so the set matches N = 2.
 
-**Problem 3 (Himanshu Banwal).** Use cases follow Phase 1 scope and what Phase 2 can implement. Four actors: Cardholder (primary); Bank core, Cash dispenser, Receipt printer (secondary). Ten use cases: Select language; Authenticate; Inquire balance; Withdraw CAD; Deposit CAD; Transfer own accounts; Change PIN; Print / show receipt; End session; Lock card. Lock card «extend» Authenticate; receipt «include» Withdraw.
+**Problem 3 (Keyoumu Aisikeer; reviewed and supplemented by Himanshu Banwal).** Use cases follow Phase 1 scope and what Phase 2 can implement. Four actors: Cardholder (primary); Bank core, Cash dispenser, Receipt printer (secondary). Ten use cases: Select language; Authenticate; Inquire balance; Withdraw CAD; Deposit CAD; Transfer own accounts; Change PIN; Print / show receipt; End session; Lock card. Lock card «extend» Authenticate; receipt «include» Withdraw.
 
 **Shared.** Course PowerPoint template; CASTROFF; AI Interaction Log; IEEE/ACM citations for Phase 1; one model so unsupported actors and transactions do not enter Phase 2.
 
@@ -97,19 +98,16 @@ Q1–Q3 answer the SMART goal directly. Q4 is a usability construct, not a full 
 
 Public D2 roles document: [`D2_ROLES.md`](D2_ROLES.md)
 
-| Member | Problem | Marks (approx.) | Responsibility |
-|---|---|---|---|
-| Keyoumu Aisikeer | **Problem 4 (a) + Problem 5** | implementation + 20 | Java Swing product (`javac`, OOP, exceptions, reuse); Physical and Logical SLOC on production source. |
-| Himanshu Banwal | **Problem 4 (b) + Problem 6** | tests + 20 | Representative tests; one authoritative readability metric, numbers, and thresholds. |
+| Member | Responsibility |
+|---|---|
+| Himanshu Banwal | Lead completion of Problems 4–6, including implementation, representative testing, SLOC measurement, readability analysis, and D2 materials. |
+| Keyoumu Aisikeer | Review the implementation and materials, independently run tests, identify and fix issues, and add supporting tests or analysis. |
 
-Shubo’s former D2 work (tests + SLOC) is split: SLOC stays with the implementer; tests stay with the measurement / quality owner.
+Keyoumu's D2 review contribution includes fixing the daily withdrawal limit check before note selection and adding a regression test. The resulting suite passed all 68 tests on Windows with JDK 21. See [PR #1](https://github.com/Eskair/SOEN6611-TeamA/pull/1) for the code, validation, and AI assistance disclosure.
 
 ### Phase 3 (D3)
 
-| Member | Problem | Marks | Responsibility |
-|---|---|---|---|
-| Keyoumu Aisikeer | **Problems 7 and 8** | 20 + 30 | Cyclomatic number; WMC (unnormalized), CF, and LCOM* for each class; comment vs thresholds. |
-| Himanshu Banwal | **Problems 9 and 10** | 20 + 30 | UCP and Basic COCOMO 81 vs actual effort; scatter plot and correlation of Logical SLOC vs WMC. |
+Each member completes half of the D3 tasks covering Problems 7–10. The exact task allocation will be recorded when agreed. Each member reviews, corrects, and supplements the other member's work before the team integrates the results and presentation.
 
 ## Tech stack
 
