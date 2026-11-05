@@ -1,5 +1,5 @@
 SOEN 6611 D2 - Problems 5 and 6: evidence and reproduction
-Measured code: src/ of commit b18c875 plus the suggestNotes daily-limit change (48 files). Test code excluded.
+Measured code: src/ at commit 5d451db (main after PR #1). Test code excluded.
 
 Files
   p5_sloc_per_file.csv            physical / comment / blank / logical SLOC per file
