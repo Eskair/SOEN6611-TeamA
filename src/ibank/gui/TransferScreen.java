@@ -24,6 +24,7 @@ public class TransferScreen extends BaseScreen {
     addField("transfer.from", from);
     addField("transfer.to", to);
     addField("field.amount", amount);
+    addKeypad(true);
     JButton ok = addButton("button.ok", this::transfer);
     addButton("button.back", frame::showMenu);
     setEnterButton(ok);

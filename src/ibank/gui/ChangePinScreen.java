@@ -16,6 +16,7 @@ public class ChangePinScreen extends BaseScreen {
     super(frame, "pin.title");
     addField("pin.new", newPin);
     addField("pin.confirm", confirmation);
+    addKeypad(false);
     JButton ok = addButton("button.ok", this::change);
     addButton("button.back", frame::showMenu);
     setEnterButton(ok);

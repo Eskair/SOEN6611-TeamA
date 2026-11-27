@@ -28,6 +28,7 @@ public class MenuScreen extends BaseScreen {
 
   private JButton menuButton(String key, Runnable onClick) {
     JButton button = new JButton(text().get(key));
+    Theme.secondary(button);
     button.setFont(button.getFont().deriveFont(Font.BOLD, 22f));
     button.setPreferredSize(BUTTON_SIZE); // Large targets are easier to press.
     button.addActionListener(event -> onClick.run());

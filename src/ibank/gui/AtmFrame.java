@@ -48,7 +48,7 @@ public class AtmFrame extends JFrame {
     this.dispenser = dispenser;
     this.saveState = saveState;
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-    setMinimumSize(new Dimension(760, 560));
+    setMinimumSize(new Dimension(960, 700));
     setLocationRelativeTo(null);
     watchForInactivity();
     showScreen(new WelcomeScreen(this));

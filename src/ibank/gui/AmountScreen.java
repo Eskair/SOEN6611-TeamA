@@ -7,7 +7,6 @@ import ibank.model.Money;
 import ibank.model.Transaction;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 /**
@@ -33,7 +32,8 @@ public class AmountScreen extends BaseScreen {
     this.handler = handler;
     addField("field.account", account);
     addField("field.amount", amount);
-    addLine(new JLabel(hint));
+    addKeypad(true);
+    addNote(hint);
     JButton ok = addButton("button.ok", this::confirm);
     addButton("button.back", frame::showMenu);
     setEnterButton(ok);

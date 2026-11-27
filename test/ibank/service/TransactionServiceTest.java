@@ -51,6 +51,7 @@ class TransactionServiceTest {
       assertEquals(Money.cad(1850), bank.dispenser.getTotalCash());
       assertEquals(0, bank.bankCore.getTransactions(bank.main).size());
     }
+
     @Test
     @DisplayName("A valid withdrawal lowers the balance, removes notes and is recorded")
     void validWithdrawal() throws Exception {

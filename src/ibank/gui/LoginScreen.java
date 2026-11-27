@@ -20,6 +20,7 @@ public class LoginScreen extends BaseScreen {
     super(frame, "login.title");
     addField("login.card", cardNumber);
     addField("login.pin", pin);
+    addKeypad(false);
     JButton ok = addButton("button.ok", this::logIn);
     addButton("button.cancel", () -> frame.showScreen(new WelcomeScreen(frame)));
     setEnterButton(ok);
