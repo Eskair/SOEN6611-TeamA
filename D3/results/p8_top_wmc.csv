@@ -1,0 +1,11 @@
+class,WMC,logical_SLOC,methods_and_constructors
+ibank.device.CashDispenser,32,72,12
+ibank.gui.AtmFrame,29,87,19
+ibank.persistence.StateStore,28,85,7
+ibank.service.TransactionService,21,74,12
+ibank.model.Money,19,44,15
+ibank.gui.BaseScreen,12,64,9
+ibank.model.Card,12,35,12
+ibank.service.AuthenticationService,11,31,4
+ibank.device.CardholderCsvLoader,10,29,4
+ibank.device.NoteBundle,10,27,5

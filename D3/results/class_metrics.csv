@@ -1,0 +1,53 @@
+class,file,method_and_constructor_count,instance_method_count,instance_fields,wmc,logical_sloc,lcom_star,lcom_status,dependencies
+"ibank.Main","src/ibank/Main.java",3,0,0,7,37,,N/A: no instance fields,8
+"ibank.config.AtmConfig","src/ibank/config/AtmConfig.java",8,6,6,8,30,1.000000,computed,1
+"ibank.device.BankCore","src/ibank/device/BankCore.java",3,3,0,3,4,,N/A: no instance fields,2
+"ibank.device.CardholderCsvLoader","src/ibank/device/CardholderCsvLoader.java",4,0,0,10,29,,N/A: no instance fields,5
+"ibank.device.CardholderCsvLoader.CardholderDraft","src/ibank/device/CardholderCsvLoader.java",2,1,4,2,11,,N/A: fewer than 2 methods,3
+"ibank.device.CashDispenser","src/ibank/device/CashDispenser.java",12,9,3,32,72,0.625000,computed,7
+"ibank.device.CashDispenser.SearchState","src/ibank/device/CashDispenser.java",2,1,3,3,10,,N/A: fewer than 2 methods,0
+"ibank.device.NoteBundle","src/ibank/device/NoteBundle.java",5,4,2,10,27,0.500000,computed,1
+"ibank.device.ReceiptPrinter","src/ibank/device/ReceiptPrinter.java",3,3,0,6,23,,N/A: no instance fields,7
+"ibank.device.SimulatedBankCore","src/ibank/device/SimulatedBankCore.java",5,4,2,7,18,0.666667,computed,4
+"ibank.exception.AccountNotFoundException","src/ibank/exception/AccountNotFoundException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.AtmException","src/ibank/exception/AtmException.java",4,3,2,4,14,0.500000,computed,0
+"ibank.exception.CardLockedException","src/ibank/exception/CardLockedException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.CardNotRecognizedException","src/ibank/exception/CardNotRecognizedException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.CashUnavailableException","src/ibank/exception/CashUnavailableException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.DailyLimitExceededException","src/ibank/exception/DailyLimitExceededException.java",1,0,0,1,4,,N/A: no instance fields,1
+"ibank.exception.InsufficientFundsException","src/ibank/exception/InsufficientFundsException.java",1,0,0,1,4,,N/A: no instance fields,1
+"ibank.exception.InvalidAmountException","src/ibank/exception/InvalidAmountException.java",4,0,0,4,10,,N/A: no instance fields,1
+"ibank.exception.InvalidNoteMixException","src/ibank/exception/InvalidNoteMixException.java",3,0,0,3,8,,N/A: no instance fields,1
+"ibank.exception.InvalidPinFormatException","src/ibank/exception/InvalidPinFormatException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.PinMismatchException","src/ibank/exception/PinMismatchException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.SameAccountTransferException","src/ibank/exception/SameAccountTransferException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.SessionExpiredException","src/ibank/exception/SessionExpiredException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.exception.WrongPinException","src/ibank/exception/WrongPinException.java",1,0,0,1,4,,N/A: no instance fields,0
+"ibank.gui.AmountScreen","src/ibank/gui/AmountScreen.java",4,1,3,4,25,,N/A: fewer than 2 methods,12
+"ibank.gui.AmountScreen.AmountHandler","src/ibank/gui/AmountScreen.java",1,1,0,1,2,,N/A: no instance fields,3
+"ibank.gui.AtmAction","src/ibank/gui/AtmAction.java",1,1,0,1,2,,N/A: no instance fields,0
+"ibank.gui.AtmFrame","src/ibank/gui/AtmFrame.java",19,18,7,29,87,0.848739,computed,13
+"ibank.gui.BalanceScreen","src/ibank/gui/BalanceScreen.java",2,1,2,2,17,,N/A: fewer than 2 methods,5
+"ibank.gui.BaseScreen","src/ibank/gui/BaseScreen.java",9,8,5,12,64,0.885714,computed,6
+"ibank.gui.BaseScreen.anonymous1","src/ibank/gui/BaseScreen.java",1,1,0,2,8,,N/A: no instance fields,4
+"ibank.gui.ChangePinScreen","src/ibank/gui/ChangePinScreen.java",2,1,2,2,20,,N/A: fewer than 2 methods,3
+"ibank.gui.LoginScreen","src/ibank/gui/LoginScreen.java",2,1,2,2,17,,N/A: fewer than 2 methods,3
+"ibank.gui.MenuScreen","src/ibank/gui/MenuScreen.java",2,1,0,2,20,,N/A: no instance fields,8
+"ibank.gui.NoteMixScreen","src/ibank/gui/NoteMixScreen.java",6,5,5,10,50,0.800000,computed,9
+"ibank.gui.ReceiptScreen","src/ibank/gui/ReceiptScreen.java",2,0,0,3,16,,N/A: no instance fields,7
+"ibank.gui.TransferScreen","src/ibank/gui/TransferScreen.java",2,1,3,3,19,,N/A: fewer than 2 methods,5
+"ibank.gui.WelcomeScreen","src/ibank/gui/WelcomeScreen.java",2,1,0,2,11,,N/A: no instance fields,3
+"ibank.i18n.Messages","src/ibank/i18n/Messages.java",6,4,3,10,36,1.000000,computed,2
+"ibank.model.Account","src/ibank/model/Account.java",8,7,3,9,26,0.777778,computed,3
+"ibank.model.AccountType","src/ibank/model/AccountType.java",2,1,1,2,8,,N/A: fewer than 2 methods,0
+"ibank.model.Card","src/ibank/model/Card.java",12,11,4,12,35,0.750000,computed,1
+"ibank.model.Cardholder","src/ibank/model/Cardholder.java",5,4,3,7,19,0.888889,computed,3
+"ibank.model.Money","src/ibank/model/Money.java",15,11,2,19,44,0.300000,computed,0
+"ibank.model.Transaction","src/ibank/model/Transaction.java",6,5,5,6,22,1.000000,computed,3
+"ibank.model.TransactionType","src/ibank/model/TransactionType.java",2,1,1,2,9,,N/A: fewer than 2 methods,0
+"ibank.persistence.StateStore","src/ibank/persistence/StateStore.java",7,5,2,28,85,0.750000,computed,8
+"ibank.security.PinHasher","src/ibank/security/PinHasher.java",5,0,0,7,24,,N/A: no instance fields,0
+"ibank.service.AtmSession","src/ibank/service/AtmSession.java",6,5,5,10,25,0.800000,computed,2
+"ibank.service.AuthenticationService","src/ibank/service/AuthenticationService.java",4,3,3,11,31,0.666667,computed,9
+"ibank.service.TransactionService","src/ibank/service/TransactionService.java",12,11,4,21,74,0.850000,computed,14
+"ibank.service.WithdrawalResult","src/ibank/service/WithdrawalResult.java",3,2,2,3,10,1.000000,computed,2

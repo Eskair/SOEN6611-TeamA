@@ -1,0 +1,19 @@
+classes=52
+methods_and_constructors=217
+total_method_cc_and_wmc=332
+class_logical_sloc_excluding_package_import=1143
+internal_directed_couplings=170
+inheritance_related_ordered_pairs=23
+maximum_possible_couplings=2652
+CF=0.064103 (170/2652)
+
+classes_with_computable_LCOM_star=19
+sloc_category.exception handling (try / catch / finally)=23
+sloc_category.expression statement=346
+sloc_category.field/enum-constant declaration=145
+sloc_category.iteration (for / while / do)=32
+sloc_category.jump (return / break / continue / throw)=151
+sloc_category.local variable declaration=120
+sloc_category.method/constructor header=217
+sloc_category.selection (if / else if / else)=57
+sloc_category.type declaration=52

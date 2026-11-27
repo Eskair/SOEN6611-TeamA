@@ -1,0 +1,5 @@
+n=52
+Pearson_r=0.936320
+R_squared=0.876696
+linear_fit_WMC=0.322837*logical_SLOC+-0.711580
+Interpretation: strong positive association in this source snapshot; not causal.

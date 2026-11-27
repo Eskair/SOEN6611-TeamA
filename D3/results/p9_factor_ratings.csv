@@ -1,0 +1,22 @@
+group,factor,description,weight,rating_0_to_5,weighted_rating
+Technical,T1,Distributed system,2.0,3,6.0
+Technical,T2,Response time / performance,1.0,3,3.0
+Technical,T3,End-user efficiency,1.0,3,3.0
+Technical,T4,Complex internal processing,1.0,3,3.0
+Technical,T5,Reusable code,1.0,3,3.0
+Technical,T6,Easy to install,0.5,3,1.5
+Technical,T7,Easy to use,0.5,3,1.5
+Technical,T8,Portable,2.0,3,6.0
+Technical,T9,Easy to change,1.0,3,3.0
+Technical,T10,Concurrent,1.0,3,3.0
+Technical,T11,Security features,1.0,3,3.0
+Technical,T12,Third-party access,1.0,3,3.0
+Technical,T13,Special user training,1.0,3,3.0
+Environmental,E1,Familiarity with project,1.5,3,4.5
+Environmental,E2,Application experience,0.5,3,1.5
+Environmental,E3,Object-oriented experience,1.0,3,3.0
+Environmental,E4,Lead analyst capability,0.5,3,1.5
+Environmental,E5,Motivation,1.0,3,3.0
+Environmental,E6,Requirements stability,2.0,3,6.0
+Environmental,E7,Part-time staff,-1.0,3,-3.0
+Environmental,E8,Difficulty of programming language,-1.0,3,-3.0

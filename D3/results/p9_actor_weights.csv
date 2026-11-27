@@ -1,0 +1,5 @@
+actor,actor_type,weight,count,weighted_points
+Cardholder,Complex GUI user,3,1,3
+Bank core,Simple API/service,1,1,1
+Cash dispenser,Simple device interface,1,1,1
+Receipt printer,Simple device interface,1,1,1

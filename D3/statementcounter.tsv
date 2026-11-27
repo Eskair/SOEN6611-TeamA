@@ -1,0 +1,544 @@
+LSLOC	src/ibank/Main.java	exception handling (try / catch / finally)	4
+LSLOC	src/ibank/Main.java	expression statement	11
+LSLOC	src/ibank/Main.java	field/enum-constant declaration	4
+LSLOC	src/ibank/Main.java	iteration (for / while / do)	1
+LSLOC	src/ibank/Main.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/Main.java	local variable declaration	11
+LSLOC	src/ibank/Main.java	method/constructor header	3
+LSLOC	src/ibank/Main.java	package/import	18
+LSLOC	src/ibank/Main.java	selection (if / else if / else)	1
+LSLOC	src/ibank/Main.java	type declaration	1
+METHOD	src/ibank/Main.java	Main.Main	1329	1374
+METHOD	src/ibank/Main.java	Main.main	1454	2805
+METHOD	src/ibank/Main.java	Main.useLargeText	2888	3347
+LSLOC	src/ibank/config/AtmConfig.java	expression statement	7
+LSLOC	src/ibank/config/AtmConfig.java	field/enum-constant declaration	6
+LSLOC	src/ibank/config/AtmConfig.java	jump (return / break / continue / throw)	7
+LSLOC	src/ibank/config/AtmConfig.java	local variable declaration	1
+LSLOC	src/ibank/config/AtmConfig.java	method/constructor header	8
+LSLOC	src/ibank/config/AtmConfig.java	package/import	8
+LSLOC	src/ibank/config/AtmConfig.java	type declaration	1
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.AtmConfig	845	1509
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.montrealDefaults	1931	2101
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getCurrency	2105	2161
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getNoteValues	2213	2278
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getDailyWithdrawalLimit	2282	2359
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getMaxPinAttempts	2363	2426
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getPinLength	2430	2483
+METHOD	src/ibank/config/AtmConfig.java	AtmConfig.getSessionTimeout	2487	2555
+LSLOC	src/ibank/device/BankCore.java	method/constructor header	3
+LSLOC	src/ibank/device/BankCore.java	package/import	5
+LSLOC	src/ibank/device/BankCore.java	type declaration	1
+METHOD	src/ibank/device/BankCore.java	BankCore.findCardholder	678	757
+METHOD	src/ibank/device/BankCore.java	BankCore.recordTransaction	819	890
+METHOD	src/ibank/device/BankCore.java	BankCore.getTransactions	959	1016
+LSLOC	src/ibank/device/CardholderCsvLoader.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/device/CardholderCsvLoader.java	expression statement	6
+LSLOC	src/ibank/device/CardholderCsvLoader.java	field/enum-constant declaration	5
+LSLOC	src/ibank/device/CardholderCsvLoader.java	iteration (for / while / do)	2
+LSLOC	src/ibank/device/CardholderCsvLoader.java	jump (return / break / continue / throw)	6
+LSLOC	src/ibank/device/CardholderCsvLoader.java	local variable declaration	9
+LSLOC	src/ibank/device/CardholderCsvLoader.java	method/constructor header	6
+LSLOC	src/ibank/device/CardholderCsvLoader.java	package/import	15
+LSLOC	src/ibank/device/CardholderCsvLoader.java	selection (if / else if / else)	2
+LSLOC	src/ibank/device/CardholderCsvLoader.java	type declaration	2
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.CardholderCsvLoader	885	956
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.load	1160	1786
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.addLine	1790	2605
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.badLine	2609	2791
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.CardholderDraft.CardholderDraft	3056	3205
+METHOD	src/ibank/device/CardholderCsvLoader.java	CardholderCsvLoader.CardholderDraft.build	3211	3309
+LSLOC	src/ibank/device/CashDispenser.java	expression statement	15
+LSLOC	src/ibank/device/CashDispenser.java	field/enum-constant declaration	6
+LSLOC	src/ibank/device/CashDispenser.java	iteration (for / while / do)	7
+LSLOC	src/ibank/device/CashDispenser.java	jump (return / break / continue / throw)	17
+LSLOC	src/ibank/device/CashDispenser.java	local variable declaration	11
+LSLOC	src/ibank/device/CashDispenser.java	method/constructor header	14
+LSLOC	src/ibank/device/CashDispenser.java	package/import	13
+LSLOC	src/ibank/device/CashDispenser.java	selection (if / else if / else)	10
+LSLOC	src/ibank/device/CashDispenser.java	type declaration	2
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.CashDispenser	935	1189
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.plan	1617	2304
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.checkMix	2542	3037
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.dispense	3136	3481
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.getStock	3548	3640
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.getTotalCash	3694	3794
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.describeNoteValues	3879	4071
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.search	4642	4800
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.tryNotes	4804	5443
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.SearchState.SearchState	5653	5713
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.SearchState.recordIfBetter	5719	5855
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.smallestStep	6031	6166
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.gcd	6170	6251
+METHOD	src/ibank/device/CashDispenser.java	CashDispenser.toWholeDollars	6324	6597
+LSLOC	src/ibank/device/NoteBundle.java	expression statement	6
+LSLOC	src/ibank/device/NoteBundle.java	field/enum-constant declaration	2
+LSLOC	src/ibank/device/NoteBundle.java	iteration (for / while / do)	4
+LSLOC	src/ibank/device/NoteBundle.java	jump (return / break / continue / throw)	4
+LSLOC	src/ibank/device/NoteBundle.java	local variable declaration	4
+LSLOC	src/ibank/device/NoteBundle.java	method/constructor header	5
+LSLOC	src/ibank/device/NoteBundle.java	package/import	7
+LSLOC	src/ibank/device/NoteBundle.java	selection (if / else if / else)	1
+LSLOC	src/ibank/device/NoteBundle.java	type declaration	1
+METHOD	src/ibank/device/NoteBundle.java	NoteBundle.NoteBundle	532	926
+METHOD	src/ibank/device/NoteBundle.java	NoteBundle.getNotes	980	1043
+METHOD	src/ibank/device/NoteBundle.java	NoteBundle.getNoteCount	1097	1224
+METHOD	src/ibank/device/NoteBundle.java	NoteBundle.getTotal	1267	1503
+METHOD	src/ibank/device/NoteBundle.java	NoteBundle.toString	1555	1810
+LSLOC	src/ibank/device/ReceiptPrinter.java	expression statement	13
+LSLOC	src/ibank/device/ReceiptPrinter.java	field/enum-constant declaration	1
+LSLOC	src/ibank/device/ReceiptPrinter.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/device/ReceiptPrinter.java	local variable declaration	1
+LSLOC	src/ibank/device/ReceiptPrinter.java	method/constructor header	3
+LSLOC	src/ibank/device/ReceiptPrinter.java	package/import	7
+LSLOC	src/ibank/device/ReceiptPrinter.java	selection (if / else if / else)	3
+LSLOC	src/ibank/device/ReceiptPrinter.java	type declaration	1
+METHOD	src/ibank/device/ReceiptPrinter.java	ReceiptPrinter.print	792	1718
+METHOD	src/ibank/device/ReceiptPrinter.java	ReceiptPrinter.addAccountLine	1722	1970
+METHOD	src/ibank/device/ReceiptPrinter.java	ReceiptPrinter.addBalanceLine	1974	2191
+LSLOC	src/ibank/device/SimulatedBankCore.java	expression statement	3
+LSLOC	src/ibank/device/SimulatedBankCore.java	field/enum-constant declaration	2
+LSLOC	src/ibank/device/SimulatedBankCore.java	iteration (for / while / do)	1
+LSLOC	src/ibank/device/SimulatedBankCore.java	jump (return / break / continue / throw)	4
+LSLOC	src/ibank/device/SimulatedBankCore.java	local variable declaration	1
+LSLOC	src/ibank/device/SimulatedBankCore.java	method/constructor header	5
+LSLOC	src/ibank/device/SimulatedBankCore.java	package/import	10
+LSLOC	src/ibank/device/SimulatedBankCore.java	selection (if / else if / else)	1
+LSLOC	src/ibank/device/SimulatedBankCore.java	type declaration	1
+METHOD	src/ibank/device/SimulatedBankCore.java	SimulatedBankCore.SimulatedBankCore	747	991
+METHOD	src/ibank/device/SimulatedBankCore.java	SimulatedBankCore.getCardholders	1050	1152
+METHOD	src/ibank/device/SimulatedBankCore.java	SimulatedBankCore.findCardholder	1156	1427
+METHOD	src/ibank/device/SimulatedBankCore.java	SimulatedBankCore.recordTransaction	1431	1615
+METHOD	src/ibank/device/SimulatedBankCore.java	SimulatedBankCore.getTransactions	1619	1814
+LSLOC	src/ibank/exception/AccountNotFoundException.java	expression statement	1
+LSLOC	src/ibank/exception/AccountNotFoundException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/AccountNotFoundException.java	method/constructor header	1
+LSLOC	src/ibank/exception/AccountNotFoundException.java	package/import	1
+LSLOC	src/ibank/exception/AccountNotFoundException.java	type declaration	1
+METHOD	src/ibank/exception/AccountNotFoundException.java	AccountNotFoundException.AccountNotFoundException	242	318
+LSLOC	src/ibank/exception/AtmException.java	expression statement	3
+LSLOC	src/ibank/exception/AtmException.java	field/enum-constant declaration	3
+LSLOC	src/ibank/exception/AtmException.java	jump (return / break / continue / throw)	3
+LSLOC	src/ibank/exception/AtmException.java	method/constructor header	4
+LSLOC	src/ibank/exception/AtmException.java	package/import	2
+LSLOC	src/ibank/exception/AtmException.java	type declaration	1
+METHOD	src/ibank/exception/AtmException.java	AtmException.AtmException	659	830
+METHOD	src/ibank/exception/AtmException.java	AtmException.getMessageKey	917	975
+METHOD	src/ibank/exception/AtmException.java	AtmException.getMessageArgs	1064	1134
+METHOD	src/ibank/exception/AtmException.java	AtmException.toString	1138	1276
+LSLOC	src/ibank/exception/CardLockedException.java	expression statement	1
+LSLOC	src/ibank/exception/CardLockedException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/CardLockedException.java	method/constructor header	1
+LSLOC	src/ibank/exception/CardLockedException.java	package/import	1
+LSLOC	src/ibank/exception/CardLockedException.java	type declaration	1
+METHOD	src/ibank/exception/CardLockedException.java	CardLockedException.CardLockedException	230	296
+LSLOC	src/ibank/exception/CardNotRecognizedException.java	expression statement	1
+LSLOC	src/ibank/exception/CardNotRecognizedException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/CardNotRecognizedException.java	method/constructor header	1
+LSLOC	src/ibank/exception/CardNotRecognizedException.java	package/import	1
+LSLOC	src/ibank/exception/CardNotRecognizedException.java	type declaration	1
+METHOD	src/ibank/exception/CardNotRecognizedException.java	CardNotRecognizedException.CardNotRecognizedException	250	324
+LSLOC	src/ibank/exception/CashUnavailableException.java	expression statement	1
+LSLOC	src/ibank/exception/CashUnavailableException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/CashUnavailableException.java	method/constructor header	1
+LSLOC	src/ibank/exception/CashUnavailableException.java	package/import	1
+LSLOC	src/ibank/exception/CashUnavailableException.java	type declaration	1
+METHOD	src/ibank/exception/CashUnavailableException.java	CashUnavailableException.CashUnavailableException	254	330
+LSLOC	src/ibank/exception/DailyLimitExceededException.java	expression statement	1
+LSLOC	src/ibank/exception/DailyLimitExceededException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/DailyLimitExceededException.java	method/constructor header	1
+LSLOC	src/ibank/exception/DailyLimitExceededException.java	package/import	2
+LSLOC	src/ibank/exception/DailyLimitExceededException.java	type declaration	1
+METHOD	src/ibank/exception/DailyLimitExceededException.java	DailyLimitExceededException.DailyLimitExceededException	321	431
+LSLOC	src/ibank/exception/InsufficientFundsException.java	expression statement	1
+LSLOC	src/ibank/exception/InsufficientFundsException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/InsufficientFundsException.java	method/constructor header	1
+LSLOC	src/ibank/exception/InsufficientFundsException.java	package/import	2
+LSLOC	src/ibank/exception/InsufficientFundsException.java	type declaration	1
+METHOD	src/ibank/exception/InsufficientFundsException.java	InsufficientFundsException.InsufficientFundsException	325	431
+LSLOC	src/ibank/exception/InvalidAmountException.java	expression statement	1
+LSLOC	src/ibank/exception/InvalidAmountException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/InvalidAmountException.java	jump (return / break / continue / throw)	3
+LSLOC	src/ibank/exception/InvalidAmountException.java	method/constructor header	4
+LSLOC	src/ibank/exception/InvalidAmountException.java	package/import	2
+LSLOC	src/ibank/exception/InvalidAmountException.java	type declaration	1
+METHOD	src/ibank/exception/InvalidAmountException.java	InvalidAmountException.InvalidAmountException	298	398
+METHOD	src/ibank/exception/InvalidAmountException.java	InvalidAmountException.notPositive	443	566
+METHOD	src/ibank/exception/InvalidAmountException.java	InvalidAmountException.notDispensable	720	900
+METHOD	src/ibank/exception/InvalidAmountException.java	InvalidAmountException.notDepositable	1082	1263
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	expression statement	1
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	jump (return / break / continue / throw)	2
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	method/constructor header	3
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	package/import	2
+LSLOC	src/ibank/exception/InvalidNoteMixException.java	type declaration	1
+METHOD	src/ibank/exception/InvalidNoteMixException.java	InvalidNoteMixException.InvalidNoteMixException	291	392
+METHOD	src/ibank/exception/InvalidNoteMixException.java	InvalidNoteMixException.wrongTotal	475	650
+METHOD	src/ibank/exception/InvalidNoteMixException.java	InvalidNoteMixException.notEnough	742	908
+LSLOC	src/ibank/exception/InvalidPinFormatException.java	expression statement	1
+LSLOC	src/ibank/exception/InvalidPinFormatException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/InvalidPinFormatException.java	method/constructor header	1
+LSLOC	src/ibank/exception/InvalidPinFormatException.java	package/import	1
+LSLOC	src/ibank/exception/InvalidPinFormatException.java	type declaration	1
+METHOD	src/ibank/exception/InvalidPinFormatException.java	InvalidPinFormatException.InvalidPinFormatException	283	388
+LSLOC	src/ibank/exception/PinMismatchException.java	expression statement	1
+LSLOC	src/ibank/exception/PinMismatchException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/PinMismatchException.java	method/constructor header	1
+LSLOC	src/ibank/exception/PinMismatchException.java	package/import	1
+LSLOC	src/ibank/exception/PinMismatchException.java	type declaration	1
+METHOD	src/ibank/exception/PinMismatchException.java	PinMismatchException.PinMismatchException	232	300
+LSLOC	src/ibank/exception/SameAccountTransferException.java	expression statement	1
+LSLOC	src/ibank/exception/SameAccountTransferException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/SameAccountTransferException.java	method/constructor header	1
+LSLOC	src/ibank/exception/SameAccountTransferException.java	package/import	1
+LSLOC	src/ibank/exception/SameAccountTransferException.java	type declaration	1
+METHOD	src/ibank/exception/SameAccountTransferException.java	SameAccountTransferException.SameAccountTransferException	251	335
+LSLOC	src/ibank/exception/SessionExpiredException.java	expression statement	1
+LSLOC	src/ibank/exception/SessionExpiredException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/SessionExpiredException.java	method/constructor header	1
+LSLOC	src/ibank/exception/SessionExpiredException.java	package/import	1
+LSLOC	src/ibank/exception/SessionExpiredException.java	type declaration	1
+METHOD	src/ibank/exception/SessionExpiredException.java	SessionExpiredException.SessionExpiredException	240	314
+LSLOC	src/ibank/exception/WrongPinException.java	expression statement	1
+LSLOC	src/ibank/exception/WrongPinException.java	field/enum-constant declaration	1
+LSLOC	src/ibank/exception/WrongPinException.java	method/constructor header	1
+LSLOC	src/ibank/exception/WrongPinException.java	package/import	1
+LSLOC	src/ibank/exception/WrongPinException.java	type declaration	1
+METHOD	src/ibank/exception/WrongPinException.java	WrongPinException.WrongPinException	258	350
+LSLOC	src/ibank/gui/AmountScreen.java	expression statement	10
+LSLOC	src/ibank/gui/AmountScreen.java	field/enum-constant declaration	4
+LSLOC	src/ibank/gui/AmountScreen.java	jump (return / break / continue / throw)	2
+LSLOC	src/ibank/gui/AmountScreen.java	local variable declaration	4
+LSLOC	src/ibank/gui/AmountScreen.java	method/constructor header	5
+LSLOC	src/ibank/gui/AmountScreen.java	package/import	10
+LSLOC	src/ibank/gui/AmountScreen.java	type declaration	2
+METHOD	src/ibank/gui/AmountScreen.java	AmountScreen.AmountHandler.handle	682	761
+METHOD	src/ibank/gui/AmountScreen.java	AmountScreen.AmountScreen	938	1325
+METHOD	src/ibank/gui/AmountScreen.java	AmountScreen.withdraw	1537	2013
+METHOD	src/ibank/gui/AmountScreen.java	AmountScreen.deposit	2076	2393
+METHOD	src/ibank/gui/AmountScreen.java	AmountScreen.confirm	2397	2556
+LSLOC	src/ibank/gui/AtmAction.java	method/constructor header	1
+LSLOC	src/ibank/gui/AtmAction.java	package/import	2
+LSLOC	src/ibank/gui/AtmAction.java	type declaration	1
+METHOD	src/ibank/gui/AtmAction.java	AtmAction.run	323	354
+LSLOC	src/ibank/gui/AtmFrame.java	exception handling (try / catch / finally)	7
+LSLOC	src/ibank/gui/AtmFrame.java	expression statement	35
+LSLOC	src/ibank/gui/AtmFrame.java	field/enum-constant declaration	9
+LSLOC	src/ibank/gui/AtmFrame.java	jump (return / break / continue / throw)	9
+LSLOC	src/ibank/gui/AtmFrame.java	local variable declaration	3
+LSLOC	src/ibank/gui/AtmFrame.java	method/constructor header	19
+LSLOC	src/ibank/gui/AtmFrame.java	package/import	18
+LSLOC	src/ibank/gui/AtmFrame.java	selection (if / else if / else)	4
+LSLOC	src/ibank/gui/AtmFrame.java	type declaration	1
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.AtmFrame	1458	1921
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.showScreen	2041	2216
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.showMenu	2250	2316
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.startSession	2391	2486
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.endSession	2570	2770
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.attempt	3016	3515
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.showError	3564	3718
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.showInfo	3773	3931
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.confirm	4004	4325
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.parseAmount	4488	4756
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.watchForInactivity	5016	5356
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.recordActivity	5360	5603
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.text	5748	5793
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.setLanguage	5797	5874
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.session	5942	5995
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.auth	6067	6125
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.transactions	6175	6246
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.dispenser	6289	6349
+METHOD	src/ibank/gui/AtmFrame.java	AtmFrame.printer	6393	6450
+LSLOC	src/ibank/gui/BalanceScreen.java	expression statement	8
+LSLOC	src/ibank/gui/BalanceScreen.java	field/enum-constant declaration	3
+LSLOC	src/ibank/gui/BalanceScreen.java	local variable declaration	3
+LSLOC	src/ibank/gui/BalanceScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/BalanceScreen.java	package/import	6
+LSLOC	src/ibank/gui/BalanceScreen.java	type declaration	1
+METHOD	src/ibank/gui/BalanceScreen.java	BalanceScreen.BalanceScreen	449	779
+METHOD	src/ibank/gui/BalanceScreen.java	BalanceScreen.showBalance	783	1085
+LSLOC	src/ibank/gui/BaseScreen.java	expression statement	37
+LSLOC	src/ibank/gui/BaseScreen.java	field/enum-constant declaration	9
+LSLOC	src/ibank/gui/BaseScreen.java	jump (return / break / continue / throw)	4
+LSLOC	src/ibank/gui/BaseScreen.java	local variable declaration	6
+LSLOC	src/ibank/gui/BaseScreen.java	method/constructor header	10
+LSLOC	src/ibank/gui/BaseScreen.java	package/import	21
+LSLOC	src/ibank/gui/BaseScreen.java	selection (if / else if / else)	4
+LSLOC	src/ibank/gui/BaseScreen.java	type declaration	2
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.BaseScreen	1452	2047
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.text	2106	2162
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.addField	2257	2368
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.addFieldText	2449	2913
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.addLine	2985	3244
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.addButton	3306	3718
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.setEnterButton	3772	3958
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.accountChooser	4044	4842
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.(anonymous).getListCellRendererComponent	4340	4810
+METHOD	src/ibank/gui/BaseScreen.java	BaseScreen.focusFirstField	4933	5038
+LSLOC	src/ibank/gui/ChangePinScreen.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/gui/ChangePinScreen.java	expression statement	11
+LSLOC	src/ibank/gui/ChangePinScreen.java	field/enum-constant declaration	3
+LSLOC	src/ibank/gui/ChangePinScreen.java	local variable declaration	1
+LSLOC	src/ibank/gui/ChangePinScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/ChangePinScreen.java	package/import	3
+LSLOC	src/ibank/gui/ChangePinScreen.java	type declaration	1
+METHOD	src/ibank/gui/ChangePinScreen.java	ChangePinScreen.ChangePinScreen	435	712
+METHOD	src/ibank/gui/ChangePinScreen.java	ChangePinScreen.change	716	1086
+LSLOC	src/ibank/gui/LoginScreen.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/gui/LoginScreen.java	expression statement	8
+LSLOC	src/ibank/gui/LoginScreen.java	field/enum-constant declaration	3
+LSLOC	src/ibank/gui/LoginScreen.java	local variable declaration	1
+LSLOC	src/ibank/gui/LoginScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/LoginScreen.java	package/import	4
+LSLOC	src/ibank/gui/LoginScreen.java	type declaration	1
+METHOD	src/ibank/gui/LoginScreen.java	LoginScreen.LoginScreen	562	867
+METHOD	src/ibank/gui/LoginScreen.java	LoginScreen.logIn	871	1157
+LSLOC	src/ibank/gui/MenuScreen.java	expression statement	12
+LSLOC	src/ibank/gui/MenuScreen.java	field/enum-constant declaration	2
+LSLOC	src/ibank/gui/MenuScreen.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/gui/MenuScreen.java	local variable declaration	2
+LSLOC	src/ibank/gui/MenuScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/MenuScreen.java	package/import	6
+LSLOC	src/ibank/gui/MenuScreen.java	type declaration	1
+METHOD	src/ibank/gui/MenuScreen.java	MenuScreen.MenuScreen	457	1230
+METHOD	src/ibank/gui/MenuScreen.java	MenuScreen.menuButton	1234	1565
+LSLOC	src/ibank/gui/NoteMixScreen.java	expression statement	25
+LSLOC	src/ibank/gui/NoteMixScreen.java	field/enum-constant declaration	8
+LSLOC	src/ibank/gui/NoteMixScreen.java	iteration (for / while / do)	3
+LSLOC	src/ibank/gui/NoteMixScreen.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/gui/NoteMixScreen.java	local variable declaration	6
+LSLOC	src/ibank/gui/NoteMixScreen.java	method/constructor header	6
+LSLOC	src/ibank/gui/NoteMixScreen.java	package/import	15
+LSLOC	src/ibank/gui/NoteMixScreen.java	type declaration	1
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.NoteMixScreen	1285	1901
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.addCountField	1905	2458
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.useSuggestion	2527	2741
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.chosenNotes	2745	3044
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.updateTotal	3048	3262
+METHOD	src/ibank/gui/NoteMixScreen.java	NoteMixScreen.withdraw	3266	3628
+LSLOC	src/ibank/gui/ReceiptScreen.java	expression statement	8
+LSLOC	src/ibank/gui/ReceiptScreen.java	field/enum-constant declaration	1
+LSLOC	src/ibank/gui/ReceiptScreen.java	local variable declaration	2
+LSLOC	src/ibank/gui/ReceiptScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/ReceiptScreen.java	package/import	7
+LSLOC	src/ibank/gui/ReceiptScreen.java	selection (if / else if / else)	2
+LSLOC	src/ibank/gui/ReceiptScreen.java	type declaration	1
+METHOD	src/ibank/gui/ReceiptScreen.java	ReceiptScreen.ReceiptScreen	502	991
+METHOD	src/ibank/gui/ReceiptScreen.java	ReceiptScreen.offer	1078	1374
+LSLOC	src/ibank/gui/TransferScreen.java	expression statement	9
+LSLOC	src/ibank/gui/TransferScreen.java	field/enum-constant declaration	4
+LSLOC	src/ibank/gui/TransferScreen.java	local variable declaration	2
+LSLOC	src/ibank/gui/TransferScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/TransferScreen.java	package/import	6
+LSLOC	src/ibank/gui/TransferScreen.java	selection (if / else if / else)	1
+LSLOC	src/ibank/gui/TransferScreen.java	type declaration	1
+METHOD	src/ibank/gui/TransferScreen.java	TransferScreen.TransferScreen	558	989
+METHOD	src/ibank/gui/TransferScreen.java	TransferScreen.transfer	993	1324
+LSLOC	src/ibank/gui/WelcomeScreen.java	expression statement	7
+LSLOC	src/ibank/gui/WelcomeScreen.java	field/enum-constant declaration	1
+LSLOC	src/ibank/gui/WelcomeScreen.java	method/constructor header	2
+LSLOC	src/ibank/gui/WelcomeScreen.java	package/import	5
+LSLOC	src/ibank/gui/WelcomeScreen.java	type declaration	1
+METHOD	src/ibank/gui/WelcomeScreen.java	WelcomeScreen.WelcomeScreen	419	845
+METHOD	src/ibank/gui/WelcomeScreen.java	WelcomeScreen.choose	849	966
+LSLOC	src/ibank/i18n/Messages.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/i18n/Messages.java	expression statement	7
+LSLOC	src/ibank/i18n/Messages.java	field/enum-constant declaration	6
+LSLOC	src/ibank/i18n/Messages.java	iteration (for / while / do)	1
+LSLOC	src/ibank/i18n/Messages.java	jump (return / break / continue / throw)	6
+LSLOC	src/ibank/i18n/Messages.java	local variable declaration	5
+LSLOC	src/ibank/i18n/Messages.java	method/constructor header	6
+LSLOC	src/ibank/i18n/Messages.java	package/import	10
+LSLOC	src/ibank/i18n/Messages.java	selection (if / else if / else)	2
+LSLOC	src/ibank/i18n/Messages.java	type declaration	1
+METHOD	src/ibank/i18n/Messages.java	Messages.Messages	1116	1283
+METHOD	src/ibank/i18n/Messages.java	Messages.dollarFormat	1537	1946
+METHOD	src/ibank/i18n/Messages.java	Messages.get	2124	2393
+METHOD	src/ibank/i18n/Messages.java	Messages.describe	2458	2569
+METHOD	src/ibank/i18n/Messages.java	Messages.format	2626	2715
+METHOD	src/ibank/i18n/Messages.java	Messages.localize	2804	3052
+LSLOC	src/ibank/model/Account.java	expression statement	6
+LSLOC	src/ibank/model/Account.java	field/enum-constant declaration	4
+LSLOC	src/ibank/model/Account.java	jump (return / break / continue / throw)	5
+LSLOC	src/ibank/model/Account.java	local variable declaration	1
+LSLOC	src/ibank/model/Account.java	method/constructor header	8
+LSLOC	src/ibank/model/Account.java	package/import	3
+LSLOC	src/ibank/model/Account.java	selection (if / else if / else)	1
+LSLOC	src/ibank/model/Account.java	type declaration	1
+METHOD	src/ibank/model/Account.java	Account.Account	366	632
+METHOD	src/ibank/model/Account.java	Account.getNumber	636	686
+METHOD	src/ibank/model/Account.java	Account.getType	690	741
+METHOD	src/ibank/model/Account.java	Account.getBalance	745	796
+METHOD	src/ibank/model/Account.java	Account.restoreBalance	889	1009
+METHOD	src/ibank/model/Account.java	Account.credit	1050	1124
+METHOD	src/ibank/model/Account.java	Account.debit	1263	1471
+METHOD	src/ibank/model/Account.java	Account.getMaskedNumber	1639	1798
+LSLOC	src/ibank/model/AccountType.java	expression statement	1
+LSLOC	src/ibank/model/AccountType.java	field/enum-constant declaration	3
+LSLOC	src/ibank/model/AccountType.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/model/AccountType.java	method/constructor header	2
+LSLOC	src/ibank/model/AccountType.java	package/import	1
+LSLOC	src/ibank/model/AccountType.java	type declaration	1
+METHOD	src/ibank/model/AccountType.java	AccountType.AccountType	200	270
+METHOD	src/ibank/model/AccountType.java	AccountType.getMessageKey	352	410
+LSLOC	src/ibank/model/Card.java	expression statement	9
+LSLOC	src/ibank/model/Card.java	field/enum-constant declaration	5
+LSLOC	src/ibank/model/Card.java	jump (return / break / continue / throw)	7
+LSLOC	src/ibank/model/Card.java	local variable declaration	1
+LSLOC	src/ibank/model/Card.java	method/constructor header	12
+LSLOC	src/ibank/model/Card.java	package/import	3
+LSLOC	src/ibank/model/Card.java	type declaration	1
+METHOD	src/ibank/model/Card.java	Card.Card	615	759
+METHOD	src/ibank/model/Card.java	Card.getNumber	763	813
+METHOD	src/ibank/model/Card.java	Card.getMaskedNumber	890	1049
+METHOD	src/ibank/model/Card.java	Card.isPinCorrect	1111	1200
+METHOD	src/ibank/model/Card.java	Card.changePin	1258	1338
+METHOD	src/ibank/model/Card.java	Card.getPinHash	1430	1482
+METHOD	src/ibank/model/Card.java	Card.restoreState	1632	1880
+METHOD	src/ibank/model/Card.java	Card.recordFailedAttempt	1947	2034
+METHOD	src/ibank/model/Card.java	Card.resetFailedAttempts	2109	2172
+METHOD	src/ibank/model/Card.java	Card.getFailedAttempts	2176	2239
+METHOD	src/ibank/model/Card.java	Card.lock	2300	2343
+METHOD	src/ibank/model/Card.java	Card.isLocked	2347	2397
+LSLOC	src/ibank/model/Cardholder.java	expression statement	3
+LSLOC	src/ibank/model/Cardholder.java	field/enum-constant declaration	3
+LSLOC	src/ibank/model/Cardholder.java	iteration (for / while / do)	1
+LSLOC	src/ibank/model/Cardholder.java	jump (return / break / continue / throw)	5
+LSLOC	src/ibank/model/Cardholder.java	method/constructor header	5
+LSLOC	src/ibank/model/Cardholder.java	package/import	6
+LSLOC	src/ibank/model/Cardholder.java	selection (if / else if / else)	1
+LSLOC	src/ibank/model/Cardholder.java	type declaration	1
+METHOD	src/ibank/model/Cardholder.java	Cardholder.Cardholder	451	677
+METHOD	src/ibank/model/Cardholder.java	Cardholder.getName	681	727
+METHOD	src/ibank/model/Cardholder.java	Cardholder.getCard	731	775
+METHOD	src/ibank/model/Cardholder.java	Cardholder.getAccounts	867	958
+METHOD	src/ibank/model/Cardholder.java	Cardholder.findAccount	1117	1377
+LSLOC	src/ibank/model/Money.java	expression statement	5
+LSLOC	src/ibank/model/Money.java	field/enum-constant declaration	3
+LSLOC	src/ibank/model/Money.java	jump (return / break / continue / throw)	16
+LSLOC	src/ibank/model/Money.java	local variable declaration	1
+LSLOC	src/ibank/model/Money.java	method/constructor header	15
+LSLOC	src/ibank/model/Money.java	package/import	5
+LSLOC	src/ibank/model/Money.java	selection (if / else if / else)	3
+LSLOC	src/ibank/model/Money.java	type declaration	1
+METHOD	src/ibank/model/Money.java	Money.Money	632	817
+METHOD	src/ibank/model/Money.java	Money.of	915	1033
+METHOD	src/ibank/model/Money.java	Money.cad	1097	1196
+METHOD	src/ibank/model/Money.java	Money.zero	1245	1343
+METHOD	src/ibank/model/Money.java	Money.getAmount	1347	1401
+METHOD	src/ibank/model/Money.java	Money.getCurrency	1405	1461
+METHOD	src/ibank/model/Money.java	Money.plus	1539	1665
+METHOD	src/ibank/model/Money.java	Money.minus	1734	1866
+METHOD	src/ibank/model/Money.java	Money.isPositive	1870	1935
+METHOD	src/ibank/model/Money.java	Money.isGreaterThan	2002	2082
+METHOD	src/ibank/model/Money.java	Money.compareTo	2086	2212
+METHOD	src/ibank/model/Money.java	Money.requireSameCurrency	2216	2428
+METHOD	src/ibank/model/Money.java	Money.equals	2432	2690
+METHOD	src/ibank/model/Money.java	Money.hashCode	2694	2776
+METHOD	src/ibank/model/Money.java	Money.toString	2865	2977
+LSLOC	src/ibank/model/Transaction.java	expression statement	5
+LSLOC	src/ibank/model/Transaction.java	field/enum-constant declaration	5
+LSLOC	src/ibank/model/Transaction.java	jump (return / break / continue / throw)	5
+LSLOC	src/ibank/model/Transaction.java	method/constructor header	6
+LSLOC	src/ibank/model/Transaction.java	package/import	3
+LSLOC	src/ibank/model/Transaction.java	type declaration	1
+METHOD	src/ibank/model/Transaction.java	Transaction.Transaction	632	971
+METHOD	src/ibank/model/Transaction.java	Transaction.getType	975	1030
+METHOD	src/ibank/model/Transaction.java	Transaction.getAmount	1034	1083
+METHOD	src/ibank/model/Transaction.java	Transaction.getSource	1087	1138
+METHOD	src/ibank/model/Transaction.java	Transaction.getTarget	1142	1193
+METHOD	src/ibank/model/Transaction.java	Transaction.getTime	1197	1250
+LSLOC	src/ibank/model/TransactionType.java	expression statement	1
+LSLOC	src/ibank/model/TransactionType.java	field/enum-constant declaration	4
+LSLOC	src/ibank/model/TransactionType.java	jump (return / break / continue / throw)	1
+LSLOC	src/ibank/model/TransactionType.java	method/constructor header	2
+LSLOC	src/ibank/model/TransactionType.java	package/import	1
+LSLOC	src/ibank/model/TransactionType.java	type declaration	1
+METHOD	src/ibank/model/TransactionType.java	TransactionType.TransactionType	252	326
+METHOD	src/ibank/model/TransactionType.java	TransactionType.getMessageKey	412	470
+LSLOC	src/ibank/persistence/StateStore.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/persistence/StateStore.java	expression statement	23
+LSLOC	src/ibank/persistence/StateStore.java	field/enum-constant declaration	7
+LSLOC	src/ibank/persistence/StateStore.java	iteration (for / while / do)	11
+LSLOC	src/ibank/persistence/StateStore.java	jump (return / break / continue / throw)	7
+LSLOC	src/ibank/persistence/StateStore.java	local variable declaration	20
+LSLOC	src/ibank/persistence/StateStore.java	method/constructor header	7
+LSLOC	src/ibank/persistence/StateStore.java	package/import	23
+LSLOC	src/ibank/persistence/StateStore.java	selection (if / else if / else)	7
+LSLOC	src/ibank/persistence/StateStore.java	type declaration	1
+METHOD	src/ibank/persistence/StateStore.java	StateStore.StateStore	1725	1836
+METHOD	src/ibank/persistence/StateStore.java	StateStore.save	1994	3448
+METHOD	src/ibank/persistence/StateStore.java	StateStore.numberOrNone	3452	3566
+METHOD	src/ibank/persistence/StateStore.java	StateStore.write	3570	4180
+METHOD	src/ibank/persistence/StateStore.java	StateStore.restore	4531	5806
+METHOD	src/ibank/persistence/StateStore.java	StateStore.savedNotes	5896	6266
+METHOD	src/ibank/persistence/StateStore.java	StateStore.read	6347	7042
+LSLOC	src/ibank/security/PinHasher.java	exception handling (try / catch / finally)	2
+LSLOC	src/ibank/security/PinHasher.java	expression statement	2
+LSLOC	src/ibank/security/PinHasher.java	field/enum-constant declaration	2
+LSLOC	src/ibank/security/PinHasher.java	jump (return / break / continue / throw)	6
+LSLOC	src/ibank/security/PinHasher.java	local variable declaration	5
+LSLOC	src/ibank/security/PinHasher.java	method/constructor header	5
+LSLOC	src/ibank/security/PinHasher.java	package/import	6
+LSLOC	src/ibank/security/PinHasher.java	selection (if / else if / else)	1
+LSLOC	src/ibank/security/PinHasher.java	type declaration	1
+METHOD	src/ibank/security/PinHasher.java	PinHasher.PinHasher	578	639
+METHOD	src/ibank/security/PinHasher.java	PinHasher.hash	689	859
+METHOD	src/ibank/security/PinHasher.java	PinHasher.matches	940	1359
+METHOD	src/ibank/security/PinHasher.java	PinHasher.digest	1363	1772
+METHOD	src/ibank/security/PinHasher.java	PinHasher.encode	1776	1878
+LSLOC	src/ibank/service/AtmSession.java	expression statement	7
+LSLOC	src/ibank/service/AtmSession.java	field/enum-constant declaration	5
+LSLOC	src/ibank/service/AtmSession.java	jump (return / break / continue / throw)	4
+LSLOC	src/ibank/service/AtmSession.java	method/constructor header	6
+LSLOC	src/ibank/service/AtmSession.java	package/import	6
+LSLOC	src/ibank/service/AtmSession.java	selection (if / else if / else)	2
+LSLOC	src/ibank/service/AtmSession.java	type declaration	1
+METHOD	src/ibank/service/AtmSession.java	AtmSession.AtmSession	774	978
+METHOD	src/ibank/service/AtmSession.java	AtmSession.getCardholder	982	1044
+METHOD	src/ibank/service/AtmSession.java	AtmSession.ensureActive	1226	1454
+METHOD	src/ibank/service/AtmSession.java	AtmSession.isEnded	1539	1606
+METHOD	src/ibank/service/AtmSession.java	AtmSession.end	1660	1701
+METHOD	src/ibank/service/AtmSession.java	AtmSession.isIdleTooLong	1705	1825
+LSLOC	src/ibank/service/AuthenticationService.java	expression statement	7
+LSLOC	src/ibank/service/AuthenticationService.java	field/enum-constant declaration	3
+LSLOC	src/ibank/service/AuthenticationService.java	jump (return / break / continue / throw)	7
+LSLOC	src/ibank/service/AuthenticationService.java	local variable declaration	4
+LSLOC	src/ibank/service/AuthenticationService.java	method/constructor header	4
+LSLOC	src/ibank/service/AuthenticationService.java	package/import	12
+LSLOC	src/ibank/service/AuthenticationService.java	selection (if / else if / else)	5
+LSLOC	src/ibank/service/AuthenticationService.java	type declaration	1
+METHOD	src/ibank/service/AuthenticationService.java	AuthenticationService.AuthenticationService	764	928
+METHOD	src/ibank/service/AuthenticationService.java	AuthenticationService.authenticate	1335	2056
+METHOD	src/ibank/service/AuthenticationService.java	AuthenticationService.changePin	2396	2839
+METHOD	src/ibank/service/AuthenticationService.java	AuthenticationService.isValidPin	2843	3005
+LSLOC	src/ibank/service/TransactionService.java	expression statement	21
+LSLOC	src/ibank/service/TransactionService.java	field/enum-constant declaration	4
+LSLOC	src/ibank/service/TransactionService.java	iteration (for / while / do)	1
+LSLOC	src/ibank/service/TransactionService.java	jump (return / break / continue / throw)	14
+LSLOC	src/ibank/service/TransactionService.java	local variable declaration	15
+LSLOC	src/ibank/service/TransactionService.java	method/constructor header	12
+LSLOC	src/ibank/service/TransactionService.java	package/import	22
+LSLOC	src/ibank/service/TransactionService.java	selection (if / else if / else)	6
+LSLOC	src/ibank/service/TransactionService.java	type declaration	1
+METHOD	src/ibank/service/TransactionService.java	TransactionService.TransactionService	1285	1510
+METHOD	src/ibank/service/TransactionService.java	TransactionService.balance	1547	1782
+METHOD	src/ibank/service/TransactionService.java	TransactionService.withdraw	1935	2349
+METHOD	src/ibank/service/TransactionService.java	TransactionService.withdraw	2606	3369
+METHOD	src/ibank/service/TransactionService.java	TransactionService.suggestNotes	3514	3827
+METHOD	src/ibank/service/TransactionService.java	TransactionService.deposit	3897	4351
+METHOD	src/ibank/service/TransactionService.java	TransactionService.transfer	4428	5238
+METHOD	src/ibank/service/TransactionService.java	TransactionService.remainingDailyLimit	5316	5549
+METHOD	src/ibank/service/TransactionService.java	TransactionService.checkDailyLimit	5632	5904
+METHOD	src/ibank/service/TransactionService.java	TransactionService.withdrawnToday	5908	6299
+METHOD	src/ibank/service/TransactionService.java	TransactionService.checkDepositable	6303	6773
+METHOD	src/ibank/service/TransactionService.java	TransactionService.record	6777	7099
+LSLOC	src/ibank/service/WithdrawalResult.java	expression statement	2
+LSLOC	src/ibank/service/WithdrawalResult.java	field/enum-constant declaration	2
+LSLOC	src/ibank/service/WithdrawalResult.java	jump (return / break / continue / throw)	2
+LSLOC	src/ibank/service/WithdrawalResult.java	method/constructor header	3
+LSLOC	src/ibank/service/WithdrawalResult.java	package/import	3
+LSLOC	src/ibank/service/WithdrawalResult.java	type declaration	1
+METHOD	src/ibank/service/WithdrawalResult.java	WithdrawalResult.WithdrawalResult	337	469
+METHOD	src/ibank/service/WithdrawalResult.java	WithdrawalResult.getTransaction	473	538
+METHOD	src/ibank/service/WithdrawalResult.java	WithdrawalResult.getNotes	542	594

@@ -1,0 +1,9 @@
+estimate,value,unit,basis
+Adjusted Use Case Points,72.0579,UCP,(6 UAW + 65 UUCW) x TCF 1.020 x ECF 0.995
+UCP effort at Karner productivity default,1441.2,person-hours,"Adjusted UCP x 20 person-hours/UCP; generic, not project-calibrated."
+UCP sensitivity at 15 person-hours/UCP,1080.9,person-hours,Adjusted UCP x 15; lower end of commonly cited range.
+UCP sensitivity at 30 person-hours/UCP,2161.7,person-hours,Adjusted UCP x 30; upper end of commonly cited range.
+Basic COCOMO 81 effort,2.7616,person-months,Organic mode: 2.4 x 1.143 KLOC^1.05.
+Basic COCOMO 81 effort converted,441.9,person-hours,2.7616 PM x 160 hours/PM.
+Basic COCOMO 81 schedule,3.6777,months,Organic mode: 2.5 x effort^0.38.
+Retrospective D2 effort estimate,50,person-hours,Estimated from D2 work scope and role record; no timesheet in ZIP.

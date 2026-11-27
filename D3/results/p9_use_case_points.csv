@@ -1,0 +1,9 @@
+use_case,transactions,complexity,weight,weighted_points,scope_note
+Select language,1,Simple,5,5,One user selection; EN/FR.
+Authenticate,3,Simple,5,5,Card/PIN entry and authentication; lockout is an alternate flow.
+Inquire balance,3,Simple,5,5,Select balance flow/account and display result.
+Withdraw CAD,8,Complex,15,15,"Account, amount, optional note mix, validation, dispense, posting, receipt."
+Deposit CAD,6,Average,10,10,"Account/amount, validation, posting, optional receipt."
+Transfer own accounts,7,Average,10,10,"Source, target, amount, validation, posting, optional receipt."
+Change PIN,5,Average,10,10,"Current PIN, new PIN, confirmation, validation, update."
+End session,2,Simple,5,5,"End-session action or idle timeout, then clear session."
